@@ -1,0 +1,19 @@
+{
+  "name": "retinaad-production",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "build": "node -e \"console.log('Static Vercel build already exists in dist')\"",
+    "start": "node server/start.mjs",
+    "admin:create": "node server/create-admin.mjs",
+    "storage:check": "node server/check-storage.mjs"
+  },
+  "dependencies": {
+    "express": "4.22.2",
+    "dotenv": "17.4.2"
+  }
+}
