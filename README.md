@@ -1,12 +1,7 @@
 # Retinaad Website
 
-Static Vercel package for the Retinaad public website.
-
-The current bundle was built with RetiBazaar links pointed at:
-
-```text
-https://retibazaar.vercel.app
-```
+Static Vercel package for the Retinaad public website, with the RetiBazaar
+public experience mounted internally under `/retibazaar`.
 
 ## Push To Remote
 
